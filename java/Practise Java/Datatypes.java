@@ -18,7 +18,7 @@ public class Lfd {
         
         char character = 'n' ; //character
         
-        String name = "Naveen" ; //String
+       boolean isJavafun = true;
        
         System.out.println(f);
        System.out.println(d);
@@ -27,7 +27,7 @@ public class Lfd {
           System.out.println(myNum);
          System.out.println(name);
          System.out.println(a);
-         System.out.println(character);
+         System.out.println(isJavafun);
         
        
        }
