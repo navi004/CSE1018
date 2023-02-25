@@ -13,8 +13,10 @@ import java.lang.*;
 class CommandArgs {
       public static void main(String[] args) {
       int count,i=0;
-      String string; //Declaring a dummy string to print your array of inputs within a while loop
-      count = args.length;  //To find the number of elements in an array named "args", we use the syntax "args.length"
+      String string; 
+            //Declaring a dummy string to print your array of inputs within a while loop
+      count = args.length; 
+            //To find the number of elements in an array named "args", we use the syntax "args.length"
       System.out.println("The number of arguements you have passed is " + count); // to print length of string
       
       while(i<count) {
@@ -24,3 +26,4 @@ class CommandArgs {
             }
          }
      }
+  //it will take input while running the code
