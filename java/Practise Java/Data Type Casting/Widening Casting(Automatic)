@@ -9,13 +9,18 @@
          If your T-shirt size is 'S', you can also buy T-shirts of size 'M', 'L', 'XL', etc. 
          You can wear a bigger size T-shirt when you feel sick. This is called implicit casting. 
          byte(S size), short(M size), int(L size), long(XL size) */
+         
+ import java.util.*;
 public class TypeCasting {
  public static void main(String[] args) {
-   int myInt = 10;
+ Scanner input = new Scanner(System.in);
+   System.out.println("Enter an integer:");
+   int myInt = input.nextInt();
    double myDouble = myInt; 
    
+ 
    System.out.print(myDouble);
-   System.out.print(myInt);
+   
       }
     }
    
