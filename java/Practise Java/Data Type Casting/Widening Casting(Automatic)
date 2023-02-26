@@ -1,4 +1,14 @@
 //to change the datatype
+ //Type-casting = Converting one datatype to another
+        /*Two types of typecasting - Implicit and Explicit
+         * 1.Implicit Typecasting: Converting from a narrower datatype to a wider datatype
+         *Datatypes who has higher memory allocation are called wider datatypes
+         e.g., When we compare 'long' and 'int', we can say that 'long' is the wider datatype because its memory allocation is 8 bytes.
+         'int' is a narrower datatype since its memory allocation is 4 bytes 
+          In simple terms, imagine yourself standing in the Trends showroom shopping for T-shirt
+         If your T-shirt size is 'S', you can also buy T-shirts of size 'M', 'L', 'XL', etc. 
+         You can wear a bigger size T-shirt when you feel sick. This is called implicit casting. 
+         byte(S size), short(M size), int(L size), long(XL size) */
 public class TypeCasting {
  public static void main(String[] args) {
    int myInt = 10;
