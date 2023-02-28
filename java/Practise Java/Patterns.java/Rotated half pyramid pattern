@@ -1,10 +1,12 @@
 // Java code to demonstrate star pattern
+/*
            * 
          * * 
        * * * 
      * * * * 
    * * * * * 
-import java.io.*;
+ */
+
 import java.util.*;
 
 public class Firstclass {
@@ -19,9 +21,9 @@ public class Firstclass {
         
           // inner loop to handle number spaces
             // values changing acc. to requirement
-         for(int j=n;j>=1;j--) {
+         for(int j=1;j<=n-i;j++) {
             // printing spaces
-            System.out.print(" ");
+            System.out.print("  ");
          }
         
          //  inner loop to handle number of columns
