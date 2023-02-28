@@ -1,4 +1,4 @@
-//java program to print numbers in half pyramid pattern
+//java program to print Floyd's Trangle
 /*
  1
  2 3
