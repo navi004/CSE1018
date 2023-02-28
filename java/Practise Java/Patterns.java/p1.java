@@ -1,8 +1,15 @@
-// Java code to demonstrate star patterns
+// Java program stars in half pyramid pattern 
+/*
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
 import java.io.*;
 import java.util.*;
 
-public class Firstclass {
+public class Patterns {
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Enter the n value:");
