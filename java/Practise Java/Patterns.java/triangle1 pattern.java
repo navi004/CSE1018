@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 // Java code to demonstrate star pattern in triangle
+//java program to print stars in pyramid pattern with spaces between them 
     * 
    * * 
   * * * 
@@ -40,3 +41,5 @@ public class Firstclass
 		}
 	}
 }
+
+
