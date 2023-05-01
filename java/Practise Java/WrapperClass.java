@@ -2,6 +2,9 @@ import java.util.*;
 
 public class Demoo {
     public static void main(String[] args) {
+        // Wrapper classes in Java are classes that encapsulate primitive data types. 
+        //They are used when a primitive data type is required to be treated as an object.
+        //Wrapper classes provide a way to convert primitive data types to objects and perform various operations on them.
         int n1 = 1049;
         Integer num1 = n1;  //Auto-boxing : automatic coversion of primitive type to (object type) corresponding wrapper class
 
