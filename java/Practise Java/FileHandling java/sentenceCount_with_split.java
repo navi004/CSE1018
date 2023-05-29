@@ -10,15 +10,15 @@ class Demo  {
             BufferedReader br = new BufferedReader(fr);
             String line = br.readLine();
 
-            int linecount = 0;
+            int sentencecount = 0;
                 while(line != null) {
                     String[] sentence = line.split("[.]");
-                    linecount = linecount + sentence.length;
+                    sentencecount = sentencecount + sentence.length;
                     System.out.println(line);
 
                     line = br.readLine();
                 }
-                System.out.println("No of Lines "+linecount);
+                System.out.println("No of Lines "+sentencecount);
             }
         catch(IOException e) {
             e.printStackTrace();
